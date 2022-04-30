@@ -10,11 +10,8 @@ h1.textContent = "Calculator";
 div.append(h1);
 
 
-const p = document.createElement('p');
-p.id = "description"
-p.textContent = "Calculator Task"
 
-div.append(p);
+
 
 const subdiv = document.createElement("div")
 subdiv.className = "calculator"
